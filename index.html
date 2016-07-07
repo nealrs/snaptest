@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>WTF is your face all about</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+ <link href='//fonts.googleapis.com/css?family=Vollkorn:400,400italic' rel='stylesheet' type='text/css'>
+ <link href='//fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="css/styles.css">
+ <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+ <div class="main">
+  <div id="top">
+    <h1>WTF is your face all about?</h1>
+  </div>
+
+  <div id="cover">
+    <div class="cover" id="video">
+      <video width="480" preload="auto" controls type="video/mp4" style="border-radius:4px;" poster="img/vid.png" id="video">
+        <source src="//devpostcommit.s3.amazonaws.com/TEST/vid.mp4" type="video/mp4">
+        Derp, your browser doesn't support embedded videos. <a href="vid/vid.mp4">Download it instead</a>.
+      </video>
+
+    </div>
+
+    <div class="cover" id="videoNotes">
+      <h2>About this episode</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a velit convallis, tristique sem id, euismod nisl. Etiam vitae pellentesque tortor. Vivamus aliquet vitae felis ac feugiat.</p>
+
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec porttitor pretium mauris vel tempor. Aenean congue augue ut tristique efficitur.</p>
+
+    </div>
+
+  </div>
+
+  <div class="section sectionAlt" id="subscribe">
+    <h2>Subscribe to WTF is&hellip;</h2>
+    <p class="smalltext">We'll never text you more than once a day.<br>Text STOP anytime to unsubscribe.</p>
+    <table align:"center">
+      <tr>
+        <td>
+          <label for="tel">US cell number</label>
+          <br>
+          <input type="tel" name="tel" required placeholder="555.867.5309" class="auth_input"></input>
+        </td>
+
+        <td>
+          <label for="tz">Time zone</label><br>
+          <select name="tz"required>
+            <option value="ET">Eastern</option>
+            <option value="CT">Central</option>
+            <option value="MT">Mountain</option>
+            <option value="PT">Pacific</option>
+          </select>
+        </td>
+      </tr>
+    <table>
+
+    <button type="submit" class="auth_button">Subscribe me!</button>
+  </div>
+
+  <div class="section" id="comments">
+    <h2>Comments</h2>
+    <img src="http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/uploads/2012/05/discuss-2012.png" class="imgresp">
+  </div>
+
+ </div>
+</body>
+</html>
